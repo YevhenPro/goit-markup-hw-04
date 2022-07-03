@@ -385,22 +385,39 @@ border-radius: 4px; */
 .clients-icon-item:not(:last-child) {
 	margin-right: 30px;
 }
+
+/* focus */
+.client-link:hover
+.client-link:focus {
+	fill: var(--accent);
+
+} 
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+	fill: var(--accent);
+	border: 1px solid #2196f3;
+/* focus end */
+
+
+
+
+
 /* .clients-icon-item:hover, */
 /* .clients-icon-item:focus */
-.client-icon:hover
-.client-icon:focus{
-	border: 1px solid #2196f3;
-	cursor: pointer;
+/* .client-icon:hover */
+/* .client-icon:focus{ */
+/* 	border: 1px solid #2196f3; */
+/* 	cursor: pointer; */
 	
 }
 
 
 
-.clients-icon-item:hover .client-icon,
-.clients-icon-item:focus .client-icon {
-	fill: var(--accent);
-	border: 1px solid #2196f3;
-}
+/* .clients-icon-item:hover .client-icon, */
+/* .clients-icon-item:focus .client-icon { */
+/* 	fill: var(--accent); */
+/* 	border: 1px solid #2196f3; */
+/* } */
 
 .ftr {
 	background-color: var(--secondary-bg-color);
